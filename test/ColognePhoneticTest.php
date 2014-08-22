@@ -1,7 +1,8 @@
 <?php
 namespace PhoneticTest\ColognePhonetic;
 
-use \Phonetic\ColognePhonetic;
+use Phonetic\ColognePhonetic;
+use PHPUnit_Framework_TestCase as TestCase;
 
 /**
  * Class ColognePhoneticTest
@@ -11,17 +12,17 @@ use \Phonetic\ColognePhonetic;
  * @copyright 2014 tobyte
  * @author    Tobias Reinwarth <mailtobyte at googlemail.com>
  */
-class ColognePhoneticTest extends PHPUnit_Framework_TestCase
+class ColognePhoneticTest extends TestCase
 {
     /**
-     * @dataProvider testData
+     * @dataProvider dataProvider
      */
     public function testConvert($word, $expectedCode)
     {
         $this->assertEquals($expectedCode, ColognePhonetic::convert($word));
     }
 
-    public function testData()
+    public function dataProvider()
     {
         return array(
             array('Waschmaschine', '38686'),
