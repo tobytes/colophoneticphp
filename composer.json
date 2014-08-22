@@ -1,0 +1,21 @@
+{
+    "name": "tobytes/colophoneticphp",
+    "description": "A class for retrieving the cologne phonetic (Kölner Phonetik) value of a string.",
+    "homepage": "https://github.com/tobytes/colophoneticphp",
+    "license": "GPLv3",
+    "type": "library",
+    "keywords": [
+        "phonetic",
+        "cologne",
+        "php"
+    ],
+    "authors": [
+        {"name": "Tobias Reinwarth", "homepage": "https://github.com/tobytes"}
+    ],
+    "require-dev": {
+        "sandrokeil/citools": "~1.0"
+    },
+    "require": {
+        "php": "~5.3"
+    }
+}
