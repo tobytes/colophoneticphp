@@ -18,3 +18,17 @@ This class is based on the cologne_phon function by Nikolas Zimmer (nicolas dot 
 in a [comment](http://de2.php.net/manual/en/function.soundex.php#84881) on php.net.
 
 I modified the function to fix some errors
+
+## Installation
+
+Installation of this module uses composer. For composer documentation, please refer to
+[getcomposer.org](http://getcomposer.org/).
+
+Put the following into your composer.json
+
+    {
+        "require": {
+            "tobytes/colophoneticphp": "~1.0"
+        }
+    }
+
