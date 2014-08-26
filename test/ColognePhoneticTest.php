@@ -16,6 +16,7 @@ class ColognePhoneticTest extends TestCase
 {
     /**
      * @dataProvider dataProvider
+     * @covers \Phonetic\ColognePhonetic::convert
      */
     public function testConvert($word, $expectedCode)
     {
@@ -35,7 +36,8 @@ class ColognePhoneticTest extends TestCase
             array('piod', '12'),
             array('foo bar', '317'),
             array('foo baz', '318'),
-            array('foo', '3')
+            array('foo', '3'),
+            array('crow', '473')
         );
     }
 }
