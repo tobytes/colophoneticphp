@@ -15,4 +15,4 @@ in: IBM-Nachrichten, 19. Jahrgang, 1969, S. 925-931
 This class is based on the cologne_phon function by Nikolas Zimmer (nicolas dot zimmer at einfachmarke.de) provided by him
 in a [comment](http://de2.php.net/manual/en/function.soundex.php#84881) on php.net.
 
-I modified the function to fix some errors.
+I modified the function to fix some errors
