@@ -2,6 +2,7 @@ colophoneticphp
 ===============
 
 [![Build Status](https://travis-ci.org/tobytes/colophoneticphp.svg?branch=master)](https://travis-ci.org/tobytes/colophoneticphp)
+[![Coverage Status](https://img.shields.io/coveralls/tobytes/colophoneticphp.svg)](https://coveralls.io/r/tobytes/colophoneticphp?branch=master)
 
 A class for retrieving the cologne phonetic (Kölner Phonetik) value of a string.
 
