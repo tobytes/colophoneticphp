@@ -2,7 +2,7 @@ colophoneticphp
 ===============
 
 [![Build Status](https://travis-ci.org/tobytes/colophoneticphp.svg?branch=master)](https://travis-ci.org/tobytes/colophoneticphp)
-[![Coverage Status](https://img.shields.io/coveralls/tobytes/colophoneticphp.svg)](https://coveralls.io/r/tobytes/colophoneticphp?branch=master)
+[![Coverage Status](https://coveralls.io/repos/tobytes/colophoneticphp/badge.svg?branch=master&service=github)](https://coveralls.io/github/tobytes/colophoneticphp?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/tobytes/colophoneticphp/v/stable.svg)](https://packagist.org/packages/tobytes/colophoneticphp)
 [![License](https://poser.pugx.org/tobytes/colophoneticphp/license.svg)](https://packagist.org/packages/tobytes/colophoneticphp)
 
