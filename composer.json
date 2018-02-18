@@ -2,7 +2,7 @@
     "name": "tobytes/colophoneticphp",
     "description": "A class for retrieving the cologne phonetic (Kölner Phonetik) value of a string.",
     "homepage": "https://github.com/tobytes/colophoneticphp",
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "type": "library",
     "keywords": [
         "phonetic",
